@@ -9,7 +9,7 @@ different wallpaper and colour scheme, the apps and websites that belong to it,
 and a new entry in the log. Over the day, that log becomes a time sheet: which
 hat, which activity, how long.
 
-Part of [be spex](https://be-spex.github.io) – small, focused apps for Linux
+Part of [be spex](https://bespex.github.io) – small, focused apps for Linux
 
 ```
 hat on venom            # work on VENOM
@@ -29,7 +29,7 @@ hat log today           # today's overview
 ### With the install script (recommended)
 
 ```sh
-curl -fsSL https://github.com/be-spex/HatRack/releases/latest/download/install.sh | sh
+curl -fsSL https://github.com/bespex/HatRack/releases/latest/download/install.sh | sh
 ```
 
 This puts the single binary `hat` into `~/.local/bin` (no root, nothing
@@ -43,7 +43,7 @@ background services itself.
 Once, add the be spex repository:
 
 ```sh
-curl -fsSLO https://be-spex.github.io/packages/be-spex-archive-keyring.deb
+curl -fsSLO https://bespex.github.io/packages/be-spex-archive-keyring.deb
 sudo apt install ./be-spex-archive-keyring.deb && sudo apt update
 ```
 
@@ -60,7 +60,7 @@ with a menu entry.
 ### Other ways
 
 - **.deb directly:** take `hatrack_*.deb` for your architecture from the
-  [latest release](https://github.com/be-spex/HatRack/releases/latest), run
+  [latest release](https://github.com/bespex/HatRack/releases/latest), run
   `sudo apt install ./hatrack_*.deb`, then `hat setup`.
 - **Server in a container:** the server runs on your computer as a user service
   by default, so there is nothing to host. To share one time log between
