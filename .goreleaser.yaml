@@ -37,7 +37,16 @@ nfpms:
     file_name_template: "hatrack_{{ .Arch }}"
     formats: [deb]
     maintainer: Bert Speckels <skrrytch@speckels.net>
-    description: "Work context switcher: look, apps and time log per hat – by be-spex"
+    # First line: the summary; the rest: the long text, a line with "." between paragraphs (deb)
+    description: |-
+      Work context switcher: look, apps and time log per hat – be spex
+      Most of us wear several hats in a day: the office job, a client project,
+      private stuff. HatRack makes the switch explicit: one command or one click
+      on the tray icon puts on another hat, and with it another wallpaper and
+      colour scheme, the apps and websites that belong to it, and a new entry in
+      the log. Over the day, the log becomes a time sheet.
+      .
+      Part of be spex – apps for the way you work: https://bespex.github.io
     homepage: https://github.com/bespex/HatRack
     license: MIT
     section: utils
